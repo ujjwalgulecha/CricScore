@@ -35,7 +35,6 @@ while True:
 
     except KeyboardInterrupt:
         if didInterrupt:
-            logging.info("keyboard interrupted, once")
             print("Bye bye")
             break
         else:
